@@ -1,0 +1,12 @@
+puntokilometrico,identificacion
+0.0,A7r01
+12.2,A7r11
+43.1,A7r62
+29,A7r35
+72.9,A7r96
+40.5,A7r51
+35,A7r40
+62.6,A7r73
+75,A7r10
+67.7,A7r82
+21.4,A7r26
