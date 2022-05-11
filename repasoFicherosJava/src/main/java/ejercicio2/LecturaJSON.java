@@ -16,13 +16,13 @@ import java.util.ArrayList;
  */
 public class LecturaJSON {
     
-   public static ArrayList<Alumno> leerArchivoJSON(String nombre){
-        ArrayList<Alumno> alumnos = new ArrayList<>();
+   public static ArrayList<RegistroJSON> leerArchivoJSON(String nombre){
+        ArrayList<RegistroJSON> alumnos = new ArrayList<>();
         ObjectMapper mapeador = new ObjectMapper();
 
         try {
             alumnos.addAll(mapeador.readValue(new File(nombre),
-                    mapeador.getTypeFactory().constructCollectionType(ArrayList.class, Alumno.class)));
+                    mapeador.getTypeFactory().constructCollectionType(ArrayList.class, RegistroJSON.class)));
 
         } catch (IOException e) {
             e.printStackTrace();

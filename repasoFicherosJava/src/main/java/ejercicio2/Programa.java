@@ -17,7 +17,7 @@ public class Programa {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ArrayList<Alumno> alumnosPro = new ArrayList<>();
+        ArrayList<RegistroJSON> alumnosPro = new ArrayList<>();
         alumnosPro = LecturaJSON.leerArchivoJSON("calificacionesGrupo.json");
         
         System.out.println(alumnosPro.toString());

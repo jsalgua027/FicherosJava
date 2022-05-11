@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  *
  * @author Windows10
  */
-public class Alumno {
+public class RegistroJSON {
      @JsonProperty("Alumno/a") 
     public String alumnoA;
     @JsonProperty("OACV") 

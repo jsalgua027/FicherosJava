@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio2;
+package ejercicio3;
 
+import ejercicio2.*;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 /**
  *
  * @author Windows10
  */
-public class Alumno {
+public class RegistroJSON {
      @JsonProperty("Alumno/a") 
     public String alumnoA;
     @JsonProperty("OACV") 
