@@ -13,21 +13,21 @@ import com.fasterxml.jackson.annotation.JsonProperty;
  */
 public class RegistroJSON {
      @JsonProperty("Alumno/a") 
-    public String alumnoA;
+     private String alumnoA;
     @JsonProperty("OACV") 
-    public String oACV;
+    private String oACV;
     @JsonProperty("EA") 
-    public  String eA;
+    private String eA;
     @JsonProperty("TII") 
-    public  String tII;
+    private  String tII;
     @JsonProperty("TC") 
-    public  String tC;
+    private String tC;
     @JsonProperty("ING") 
-    public  String iNG;
+    private  String iNG;
     @JsonProperty("FOL") 
-    public  String fOL;
+    private String fOL;
     @JsonProperty("CEAC") 
-    public  String cEAC;
+    private  String cEAC;
 
     public String getAlumnoA() {
         return alumnoA;

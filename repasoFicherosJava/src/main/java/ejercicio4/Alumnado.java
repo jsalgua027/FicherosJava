@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio3;
+package ejercicio4;
 
+import ejercicio3.*;
 import java.util.Map;
 import java.util.Objects;
 import java.util.TreeMap;
