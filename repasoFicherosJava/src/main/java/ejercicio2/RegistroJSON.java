@@ -29,6 +29,10 @@ public class RegistroJSON {
     @JsonProperty("CEAC") 
     private  String cEAC;
 
+    public RegistroJSON() {
+    }
+
+    
     public String getAlumnoA() {
         return alumnoA;
     }
